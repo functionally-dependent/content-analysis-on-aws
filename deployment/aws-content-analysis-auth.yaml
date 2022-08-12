@@ -89,7 +89,7 @@ Resources:
           - - index
             - .handler
         Role: !GetAtt CognitoRoleMapperLambdaExecutionRole.Arn
-        Runtime: python3.7
+        Runtime: python3.8
         Timeout: 30
 
   CognitoRoleMapperLambdaExecutionRole:

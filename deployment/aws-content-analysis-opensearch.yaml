@@ -89,7 +89,7 @@ Resources:
               "esconsumer.zip",
             ],
           ]
-      Runtime: "python3.7"
+      Runtime: "python3.8"
       Timeout: 900
       MemorySize: 2048
       Environment:
